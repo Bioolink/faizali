@@ -69,6 +69,12 @@ cursor: pointer;
     margin-top: 700px;
 }
 
+
+.kiri a{
+    color: inherit;
+    text-decoration: none;
+}
+
 .kiri button{
     width: 100px;
     height: 25px;
@@ -263,6 +269,52 @@ cursor: pointer;
 
 
 
+/* portfolio */
+
+.portfolio {
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 0px;
+    background-color: #51ff8b;
+    width: 1800px;
+    height: 850px;
+}
+
+.project {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.portfolio h1 {
+    padding-top: 50px;
+    font-family: 'MuseoModerno', cursive;
+}
+.portfolio p {
+text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pr {
+    width: 400px;
+    margin-left: 55px;
+    margin-right: 55px;
+    height: 200px;
+    background-color: #FF5851;
+    border-radius: 10px 10px 0px 0px ;
+}
+.h1 {
+    margin-left: 55px;
+    width: 400px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+
+
+
+
 /* Mobile */
 
 @media  (max-width: 576px) {
@@ -425,6 +477,53 @@ background-color: #1C1B20;
 }
 
 /* end */
+
+
+
+.portfolio {
+    background-color: #51ff8b;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 400px;
+    height: 850px;
+    justify-content: space-between;
+}
+.portfolio h1 {
+    padding-top: 50px;
+    font-family: 'MuseoModerno', cursive;
+}
+.portfolio p {
+text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.project {
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+  
+
+}
+
+
+.pr {
+    margin-top: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: #FF5851;
+    border-radius: 10px 10px 0px 0px ;
+    box-shadow: 0px 5px 5px 0px ;
+}
+.h1 {
+    margin-left: 55px;
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: 0px 0px 3px 0px ;
+}
+
 
 }
 
