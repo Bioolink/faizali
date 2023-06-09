@@ -501,15 +501,20 @@ text-decoration: underline;
 .project {
     display: block;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 5px;
   
 
+}
+
+.pr:hover {
+    background-color: #787979;
+    transition: 0.5s ease-in;
 }
 
 
 .pr {
     margin-top: 50px;
-    width: 200px;
+    width: 280px;
     height: 100px;
     background-color: #FF5851;
     border-radius: 10px 10px 0px 0px ;
@@ -517,7 +522,7 @@ text-decoration: underline;
 }
 .h1 {
     margin-left: 55px;
-    width: 200px;
+    width: 280px;
     height: 50px;
     background-color: #ffffff;
     border-radius: 0px 0px 10px 10px ;
