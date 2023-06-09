@@ -23,8 +23,70 @@
     width: 900px;
     height: 850px;
     animation: animasi 2s ease;
-
 }
+
+.lo {
+    width: 300px;
+    height:283px ;
+    background-color: #1C1B20;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi1 2s ease;
+}
+.l1 {
+    width: 600px;
+    height:283px ;
+    background-color: #305ccd;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi2 2s ease;
+}
+.l2 {
+    width: 900px;
+    height:283px ;
+    background-color: #db7c38;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi3 2s ease;
+}
+
+
+@keyframes animasi1 {
+    0% {
+     width: 0px;
+     height: 283px;
+     }
+ 
+     100%{
+         width: 300px;
+     height: 283px;
+     }
+ }
+ 
+
+@keyframes animasi2 {
+    0% {
+     width: 0px;
+     height: 283px;
+     }
+ 
+     100%{
+         width: 600px;
+     height: 283px;
+     }
+ }
+ 
+
+@keyframes animasi3 {
+    0% {
+     width: 0px;
+     height: 283px;
+     }
+ 
+     100%{
+         width: 900px;
+     height: 283px;
+     }
+ }
+ 
+
 
 nav {
     display: flex;
@@ -312,6 +374,16 @@ text-decoration: underline;
 }
 
 
+.h1 h4{
+    padding-top: 8px;
+}
+
+.h1 p, h4{
+font-size: 15px;
+margin-left: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 
 
@@ -457,7 +529,7 @@ background-color: #1C1B20;
 }
 
 .footer{
-    width: 380px;
+    width: 400px;
     height: 400px;
     background-color: #787979;
 }
@@ -481,7 +553,7 @@ background-color: #1C1B20;
 
 
 .portfolio {
-    background-color: #51ff8b;
+    background-color: #ffffff;
     margin-left: 0px;
     margin-right: 0px;
     width: 400px;
@@ -527,6 +599,32 @@ text-decoration: underline;
     background-color: #ffffff;
     border-radius: 0px 0px 10px 10px ;
     box-shadow: 0px 0px 3px 0px ;
+}
+
+
+.lo {
+    display: none;
+    width: 200px;
+    height:200px ;
+    background-color: #1C1B20;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi1 2s ease;
+}
+.l1 {
+    display: none;
+    width: 600px;
+    height:283px ;
+    background-color: #305ccd;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi2 2s ease;
+}
+.l2 {
+    display: none;
+    width: 900px;
+    height:283px ;
+    background-color: #db7c38;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi3 2s ease;
 }
 
 
