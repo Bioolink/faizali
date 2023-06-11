@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.dashboard {
+    display: flex;
+}
+
+.side {
+    width: 300px;
+    height: 100vh;
+    background-color:#db7c38;
+    animation: side 2s ease;
+}
+
+
+@keyframes side {
+    0%{
+    width: 0px;
+    height: 100vh;
+    }
+    100%{
+    width: 300px;
+    height: 100vh;
+    }
+}
+
+@keyframes but {
+    0%{
+   opacity: 0%;
+    }
+    100%{
+   opacity: 100%;
+    }
+}
+
+
+.main {
+    width: 1700px;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+.logo h1{
+    text-align: center;
+    font-family: 'MuseoModerno', cursive;
+    color: white;
+    animation: but 2s ease;
+    
+}
+
+.btn {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn button {
+    margin-top: 30px;
+    animation: but 2s ease;
+    border-radius: 10px;
+    width: 200px;
+    height: 39px;
+    background-color :#51c8ff;
+    border: none;
+    color: aliceblue;
+}
+.btn button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn button:hover{
+ background-color: rgb(53, 51, 48);
+ transition: 0.3s ease;
+}
+
+.set {
+    margin-top: 255px;
+    width: 300px;
+    height: 39px;
+    
+}
+
+.set img {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.set img:hover {
+  rotate: 90deg ;
+  transition: 1s ease;
+}
+
+.top h1 {
+    margin-left: 20px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+.list {
+    width: 1580px;
+    height: 840px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20px;
+    border-radius: 5px;
+    animation: but 4s ease;
+    box-shadow: 2px 3px 3px 1px;
+}

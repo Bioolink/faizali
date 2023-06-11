@@ -2,26 +2,13 @@
     padding: 0px;
     margin: 0px;
 }
+
 .logo {
     font-family: 'MuseoModerno', cursive;
     margin: 13px 0px 0px 60px ;
     font-size: 20px;
+    
 }
-
-
-body {
-overflow-x: hidden;
-}
-
-
-
-
-nav {
-    display: flex;
-    background-color: #ffffff;
-    justify-content: space-between;
-}
-
 
 nav ul {
     display: flex;
@@ -36,7 +23,6 @@ nav ul li {
 }
 
 nav ul li a{
-    display: none;
     color: inherit;
     text-decoration: none;
 }
@@ -59,22 +45,22 @@ nav ul li a{
     height:283px ;
     background-color: #1C1B20;
     border-radius: 0px 10px 0px 0px;
-    animation: animasi1 8s infinite;
-    /* animation: ganti 5s infinite; */
+    animation: animasi1 2s ease;
+    animation: ganti 5s infinite;
 }
 .l1 {
     width: 600px;
     height:283px ;
     background-color: #305ccd;
     border-radius: 0px 10px 0px 0px;
-    animation: animasi2 8s infinite;
+    animation: animasi2 2s ease;
 }
 .l2 {
     width: 900px;
     height:283px ;
     background-color: #db7c38;
     border-radius: 0px 10px 0px 0px;
-    animation: animasi3 8s infinite;
+    animation: animasi3 2s ease;
 }
 
 
@@ -84,14 +70,11 @@ nav ul li a{
      height: 283px;
      }
  
-     50%{
+     100%{
          width: 300px;
         height: 283px;
-        transition: 2s;
-     }
-     100%{
-        width: 0px;
-        height: 283px;
+background-color: #FF5851;
+transition: 2s;
      }
  }
  
@@ -111,12 +94,8 @@ nav ul li a{
      height: 283px;
      }
  
-     50%{
-         width: 600px;
-     height: 283px;
-     }
      100%{
-        width: 0px;
+         width: 600px;
      height: 283px;
      }
  }
@@ -128,16 +107,18 @@ nav ul li a{
      height: 283px;
      }
  
-     50%{
+     100%{
          width: 900px;
      height: 283px;
      }
-     100%{
-        width: 0px;
-        height: 283px;
-     }
  }
  
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 
 .bx {
     width: 50px;
@@ -444,7 +425,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 @media  (max-width: 576px) {
 
-  @keyframes animasi {
+    @keyframes animasi {
    0% {
     width: 0px;
     height: 650px;
@@ -481,84 +462,46 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
 }
 
+
+.pg {
+    display: block;
+    margin: 0px 0px 0px 0px;
+    
+}
+
+
+
     .pg .kanan {
     background-color: #FF5851;
     margin: 0px 0px 0px 0px;
     width: 200px;
     height: 650px;
-    display: flex;
-    animation: ganti 20s ease;
+    animation: animasi 2s ease;
+
     }
 
     
+
 .lo {
-    width: 50px;
-    height: 650px ;
+    width: 200px;
+    height:200px ;
     background-color: #1C1B20;
-    border-radius: 0px 0px 10px 0px;
-    animation: lo 10s infinite;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi1 2s ease;
 }
 .l1 {
-    width: 50px;
-    height:450px ;
+    width: 600px;
+    height:283px ;
     background-color: #305ccd;
-    border-radius: 0px 0px 10px 0px;
-    animation: l1 10s infinite;
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi2 2s ease;
 }
 .l2 {
-    width: 50px;
-    height:250px ;
+    width: 900px;
+    height:283px ;
     background-color: #db7c38;
-    border-radius: 0px 0px 10px 0px;
-    animation: l2 10s infinite;
-}
-
-
-/* animasi kanan */
-
-@keyframes lo {
-    0%{
-        width: 50px;
-        height: 0px ;
-    }
-    50%{
-        width: 50px;
-        height: 650px ;
-    }
-    100%{
-        width: 50px;
-        height: 0px ;
-    }
-}
-
-@keyframes l1 {
-    0%{
-        width: 50px;
-        height: 0px ;
-    }
-    50%{
-        width: 50px;
-        height: 450px ;
-    }
-    100%{
-        width: 50px;
-        height: 0px ;
-    }
-}
-
-@keyframes l2 {
-    0%{
-        width: 50px;
-        height: 0px ;
-    }
-    50%{
-        width: 50px;
-        height: 250px ;
-    }
-    100%{
-        width: 50px;
-        height: 0px ;
-    }
+    border-radius: 0px 10px 0px 0px;
+    animation: animasi3 2s ease;
 }
 
 
@@ -719,60 +662,11 @@ text-decoration: underline;
 }
 
 nav ul {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 40%;
-    height: 50vh;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #ffffff;
-    border: 1px solid;
-    margin-top: 60px;
-    
-    z-index: 100;
-    opacity: 0%;
-   
-    /* box-shadow: 1px 1px 1px 1px; */
-}
- 
-nav ul.slide {
-    opacity: 100%;
-    transition: all 0.5s ease;
+    display: none;
+    justify-content: space-around;
 }
 
-nav ul li a{
-    display: flex;
-    margin-left: 65px;
-    margin-top: 10px;
-  
-}
 
-nav ul li{
-    background-color: #ffffff;
-    width:160px;
-    height: 40px;
-}
-
-nav ul li:hover:nth-child(1){
-    background-color: #ffa551;
-}
-
-nav ul li:hover:nth-child(2){
-    background-color: #51abff;
-}
-
-nav ul li:hover:nth-child(3){
-    background-color: #ceff51;
-}
-
-nav ul li:hover:nth-child(4){
-    background-color: #6051ff;
-}
-
-nav ul li:hover:nth-child(5){
-    background-color: #ff5151;
-}
 
 .pr img {
     display: none;
