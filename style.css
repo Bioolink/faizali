@@ -729,6 +729,7 @@ nav ul {
     background-color: #ffffff;
     border: 1px solid;
     margin-top: 60px;
+    margin-right: 10px;
     
     z-index: 100;
     opacity: 0%;
