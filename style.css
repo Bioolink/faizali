@@ -749,29 +749,34 @@ nav ul li a{
 }
 
 nav ul li{
-    background-color: #9d1c1c;
+    background-color: #323131;
     width:140px;
     height: 40px;
 }
 
 nav ul li:hover:nth-child(1){
     background-color: #ffa551;
+    color: white;
 }
 
 nav ul li:hover:nth-child(2){
     background-color: #51abff;
+    color: white;
 }
 
 nav ul li:hover:nth-child(3){
     background-color: #ceff51;
+    color: white;
 }
 
 nav ul li:hover:nth-child(4){
     background-color: #6051ff;
+    color: white;
 }
 
 nav ul li:hover:nth-child(5){
     background-color: #ff5151;
+    color: white;
 }
 
 .pr img {
