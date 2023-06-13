@@ -442,7 +442,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* Mobile */
 
-@media  (max-width: 600px) {
+@media  (max-width: 400px) {
 
   @keyframes animasi {
    0% {
