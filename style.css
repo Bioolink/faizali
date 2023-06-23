@@ -713,17 +713,17 @@ background-color: #1C1B20;
 
 
 .portfolio {
-    background-color: #750909;
+    background-color: #ffffff;
     margin-top: 10px;
     margin-left: 0px;
     margin-right: 0px;
-    width: 400px;
+    width: 370px;
     height: 850px;
     justify-content: space-between;
 }
 .portfolio h1 {
     padding-top: 50px;
-    color: #ffffff;
+    color: #1b1919;
     font-family: 'MuseoModerno', cursive;
 }
 .portfolio p {
