@@ -723,7 +723,7 @@ background-color: #1C1B20;
 }
 .portfolio h1 {
     padding-top: 50px;
-    color: #3159c0;
+    color: #c04e31;
     font-family: 'MuseoModerno', cursive;
 }
 .portfolio p {
@@ -825,7 +825,7 @@ nav ul li:hover:nth-child(5){
 .pr img {
     display: block;
     background-size:cover;
-    width: 340px;
+    width: 320px;
 }
 
 
@@ -857,9 +857,9 @@ nav ul li:hover:nth-child(5){
 
 .h1 {
     margin-left: 3px;
-    margin-top: 112px;
+    margin-top: 100px;
     padding-top: 10px;
-    width: 337px;
+    width: 317px;
     height: 50px;
     background-color: #ffffff;
     border-radius: 0px 0px 10px 10px ;
