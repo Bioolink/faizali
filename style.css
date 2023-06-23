@@ -695,6 +695,9 @@ background-color: #1C1B20;
 
 
 
+/* Portfolio */
+
+
 .portfolio {
     background-color: #ffffff;
     margin-top: 10px;
@@ -706,6 +709,7 @@ background-color: #1C1B20;
 }
 .portfolio h1 {
     padding-top: 50px;
+    color: #b9ff51;
     font-family: 'MuseoModerno', cursive;
 }
 .portfolio p {
@@ -778,7 +782,6 @@ nav ul li:hover:nth-child(5){
 
 
 /* Project */
-
 
 .project {
     display: block;
