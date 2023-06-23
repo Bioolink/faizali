@@ -191,7 +191,7 @@ cursor: pointer;
 .kiri button{
     width: 100px;
     height: 25px;
-    margin: 40px 0px 0px 450px ;
+    margin: 40px 0px 0px 480px ;
     border-radius: 5px;
     border: 3px solid salmon;
 }
@@ -246,14 +246,14 @@ cursor: pointer;
 }
 
 .kiri h1{
-    margin: 70px 0px 0px 100px ;
+   margin-left: 300px;
     font-family: 'MuseoModerno', cursive;
     font-size: 80px;
     color: #1C1B20;
   
 }
 .kiri p{
-    margin: 0px 0px 0px 370px ;
+    margin-left: 160px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     color: #1C1B20;
@@ -261,7 +261,7 @@ cursor: pointer;
 }
 
 .kiri img {
-    margin: 100px 0px 0px 330px ;
+    margin: 100px 0px 0px 380px ;
 }
 
 
@@ -450,7 +450,7 @@ text-decoration: underline;
 }
 
 
-.h1 h4{
+.h1 h4 {
 font-size: 15px;
 margin-left: 20px;
 padding-top: 110px;
@@ -464,7 +464,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 30px;
     border-radius: 10px;
     background-color:#1C1B20 ;
-   border: none;
+    border: none;
     color: wheat;
 }
 
@@ -634,7 +634,7 @@ body{
     font-family: 'MuseoModerno', cursive;
     font-size: 25px;
     color: #1C1B20;
-    margin: 10px 0px 0px 10px ;
+    margin: 10px 0px 0px 30px ;
     line-height: 35px;
 }
 
