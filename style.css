@@ -496,6 +496,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 }
 
+.logo{
+    color: blue;
+}
 
 .pg {
     display: flex;
