@@ -404,6 +404,19 @@ text-decoration: underline;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.p1{
+    background-color: #c2191900;
+}
+
+.p2{
+    background-color: #ffffff00;
+}
+
+.p3{
+    background-color: #8b121200;
+}
+
+
 .pr {
     width: 450px;
     margin-left: 55px;
@@ -503,7 +516,7 @@ body{
 }
 
 .logo{
-    color: blue;
+    color: rgb(239, 62, 230);
 }
 
 .pg {
@@ -695,9 +708,6 @@ background-color: #1C1B20;
 
 
 
-/* Portfolio */
-
-
 .portfolio {
     background-color: #ffffff;
     margin-top: 10px;
@@ -709,7 +719,7 @@ background-color: #1C1B20;
 }
 .portfolio h1 {
     padding-top: 50px;
-    color: #b9ff51;
+color: #305ccd;
     font-family: 'MuseoModerno', cursive;
 }
 .portfolio p {
@@ -783,6 +793,7 @@ nav ul li:hover:nth-child(5){
 
 /* Project */
 
+
 .project {
     display: block;
     margin-top: 20px;
@@ -804,7 +815,6 @@ nav ul li:hover:nth-child(5){
     background-color: #FF5851;
     margin-left: 2px;
     border-radius: 10px 10px 0px 0px ;
-    box-shadow: 0px 5px 5px 0px ;
 }
 
 .pr img {
@@ -814,14 +824,18 @@ nav ul li:hover:nth-child(5){
 }
 
 
-.p2 {
-    margin-top: 50px;
+
+.p1{
+    margin-right: 100px;
 }
 
-.p3 {
-    margin-top: 50px;
+.p2{
+    margin-right: 100px;
 }
 
+.p3{
+    margin-right: 100px;
+}
 
 .h1 h4{
    
