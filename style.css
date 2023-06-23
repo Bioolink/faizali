@@ -11,6 +11,7 @@
 
 body {
 overflow-x: hidden;
+
 }
 
 
@@ -708,39 +709,6 @@ text-decoration: underline;
 }
 
 
-.project {
-    display: block;
-    margin-top: 20px;
-    margin-left: 0px;
-  
-
-}
-
-.pr:hover {
-    background-color: #787979;
-    transition: 0.5s ease-in;
-}
-
-
-.pr {
-    margin-top: 50px;
-    width: 280px;
-    height: 100px;
-    background-color: #FF5851;
-    margin-left: 2px;
-    border-radius: 10px 10px 0px 0px ;
-    box-shadow: 0px 5px 5px 0px ;
-}
-.h1 {
-    margin-left: 3px;
-    margin-top: 120px;
-    width: 348px;
-    height: 50px;
-    background-color: #ffffff;
-    border-radius: 0px 0px 10px 10px ;
-    box-shadow: 0px 0px 3px 0px ;
-}
-
 nav ul {
     position: absolute;
     right: 0;
@@ -802,10 +770,39 @@ nav ul li:hover:nth-child(5){
     color: white;
 }
 
+
+
+/* Project */
+
+
+.project {
+    display: block;
+    margin-top: 20px;
+    margin-left: 50px;
+  
+
+}
+
+.pr:hover {
+    background-color: #787979;
+    transition: 0.5s ease-in;
+}
+
+
+.pr {
+    margin-top: 50px;
+    width: 180px;
+    height: 100px;
+    background-color: #FF5851;
+    margin-left: 2px;
+    border-radius: 10px 10px 0px 0px ;
+    box-shadow: 0px 5px 5px 0px ;
+}
+
 .pr img {
     display: block;
     background-size:cover;
-    width: 350px;
+    width: 280px;
 }
 
 
@@ -823,10 +820,19 @@ nav ul li:hover:nth-child(5){
     padding-top: 10px;
 }
 
-.h1{
+
+
+.h1 {
+    margin-left: 3px;
+    margin-top: 75px;
+    padding-top: 10px;
+    width: 278px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 10px ;
+    box-shadow: 0px 0px 3px 0px ;
     display: flex;
 }
-
 
 }
 
