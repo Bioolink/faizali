@@ -466,6 +466,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 /* Mobile */
 
+
+body{
+    overflow-x: hidden;
+}
+
 @media  (max-width: 400px) {
 
   @keyframes animasi {
