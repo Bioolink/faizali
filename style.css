@@ -827,21 +827,21 @@ nav ul li:hover:nth-child(5){
 
 
 .p1{
-    margin-right: 100px;
-    background-color: #51ff91;
+    width: 278px;
+    background-color: #ffb751;
 }
 
 .p2{
-    margin-right: 100px;
+    width: 278px;
 }
 
 .p3{
-    margin-right: 100px;
+    width: 278px;
 }
 
 .h1 h4{
    
-    padding-top: 10px;
+    padding-top: 0px;
 }
 
 
