@@ -771,11 +771,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 /* Mobile */
 
 
-body{
-    overflow-x: hidden;
-}
 
-@media  (max-width: 400px) {
+@media screen and (max-width: 400px) {
 
   @keyframes animasi {
    0% {
@@ -954,20 +951,6 @@ body{
     height: 400px;
     margin-top: 300px;
     background-color: #1C1B20;
-}
-
-.sosial {
-    margin-left: 40px;
-    margin-top: 170px;
-    line-height: 20px;
-    font-size: 13px;
-    color: white;
-
-}
-
-.sosial p{
-    letter-spacing: 1px;
-
 }
 
 
@@ -1194,3 +1177,76 @@ text-decoration: underline;
 
 }
 
+
+
+/* laptop */
+
+@media screen and (width:992px) {
+    
+
+
+
+    .pg {
+        display: flex;
+        margin: 0px 0px 0px 25px;
+        
+    }
+    
+    .pg .kanan {
+        background-color: #3279e4;
+        width: 900px;
+        height: 850px;
+        animation: none;
+    }
+    
+    .lo {
+        width: 300px;
+        height:283px ;
+        background-color:  #FF5851;
+        border-radius: 0px 10px 0px 0px;
+        animation: none;
+        /* animation: ganti 5s infinite; */
+    }
+    .l1 {
+        width: 600px;
+        height:283px ;
+        background-color: #1C1B20;;
+        border-radius: 0px 10px 0px 0px;
+        animation: none;
+    }
+    .l2 {
+        width: 900px;
+        height:283px ;
+        background-color: #6e6e6e;
+        border-radius: 0px 10px 0px 0px;
+        animation: none;
+    }
+    
+
+
+/* desc */
+
+
+.desc{
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 0px;
+    width: 1800px;
+    height: 850px;
+    display: flex;
+}
+
+
+
+
+.footer{
+    width: 1853px;
+    height: 400px;
+    margin-top: 300px;
+    background-color: #1C1B20;
+}
+
+
+
+
+}
