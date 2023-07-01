@@ -4,8 +4,9 @@
 }
 .logo {
     font-family: 'MuseoModerno', cursive;
-    margin: 13px 0px 0px 60px ;
+    margin: 13px 0px 0px 20px ;
     font-size: 20px;
+   
 }
 
 
@@ -15,36 +16,69 @@ overflow-x: hidden;
 }
 
 
-.jud h1, p {
-    text-align: center;
+
+#about {
+    transition: 12s ease;
 }
 
 
+/* nav */
 
 nav {
     display: flex;
     background-color: #ffffff;
     justify-content: space-between;
+    position: fixed;
+    margin-left: 55px;
+    border-radius: 0px 0px 10px 10px;
+   
 }
 
 
+.buka {
+    width: 200px;
+    height: 80px;
+    background-color: #3279e400;
+}
+
 nav ul {
     display: flex;
+    margin-left: 1100px;
     justify-content: space-around;
+    opacity: 0%;
 }
 
 nav ul li {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 111px;
     margin-top: 20px;
 }
 
 nav ul li a{
-    display: none;
+    display: flex;
     color: inherit;
+    font-family: 'Montserrat Alternates', sans-serif;
     text-decoration: none;
 }
+
+nav ul li a:hover{
+  color: #FF5851;
+}
+
+
+nav ul.op {
+    opacity: 100%;
+    transition: all 0.5s ease;
+}
+
+
+
+
+/* end Nav */
+
+
+
 
 .pg {
     display: flex;
@@ -53,7 +87,7 @@ nav ul li a{
 }
 
 .pg .kanan {
-    background-color: #51c8ff;
+    background-color: #3279e4;
     width: 900px;
     height: 850px;
     animation: animasi 2s ease;
@@ -62,7 +96,7 @@ nav ul li a{
 .lo {
     width: 300px;
     height:283px ;
-    background-color: #1C1B20;
+    background-color:  #FF5851;
     border-radius: 0px 10px 0px 0px;
     animation: animasi1 8s infinite;
     /* animation: ganti 5s infinite; */
@@ -70,14 +104,14 @@ nav ul li a{
 .l1 {
     width: 600px;
     height:283px ;
-    background-color: #305ccd;
+    background-color: #1C1B20;;
     border-radius: 0px 10px 0px 0px;
     animation: animasi2 8s infinite;
 }
 .l2 {
     width: 900px;
     height:283px ;
-    background-color: #db7c38;
+    background-color: #6e6e6e;
     border-radius: 0px 10px 0px 0px;
     animation: animasi3 8s infinite;
 }
@@ -147,8 +181,9 @@ nav ul li a{
 .bx {
     width: 50px;
     height: 50px;
-    background-color:#ffffff;
+    background-color:#ffffff00;
     margin-top: 10px;
+    border-radius: 50px;
 }
 .bx i{
     cursor: pointer;
@@ -193,7 +228,9 @@ cursor: pointer;
     height: 25px;
     margin: 40px 0px 0px 480px ;
     border-radius: 5px;
+    font-size: 15px;
     border: 3px solid salmon;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 
@@ -203,7 +240,14 @@ cursor: pointer;
 
 }
 
-
+@keyframes opas {
+    0% {
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
 
 
 
@@ -250,10 +294,10 @@ cursor: pointer;
     font-family: 'MuseoModerno', cursive;
     font-size: 80px;
     color: #1C1B20;
-  
 }
+
 .kiri p{
-    margin-left: 160px;
+    margin-left: 400px;
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
     color: #1C1B20;
@@ -264,16 +308,17 @@ cursor: pointer;
     margin: 100px 0px 0px 380px ;
 }
 
-
-.nama h1 {
-    text-align: center;
-    font-family: 'MuseoModerno', cursive; ;
+.nama {
+    color: white;
+    animation: d3 60s infinite;
 }
 
-.nama img{
-    margin: 20px;
+.isi {
+    color: white;
+    animation: d3 60s infinite;
 }
 
+/* FOOTER */
 
 .footer{
     width: 100%;
@@ -288,38 +333,6 @@ cursor: pointer;
     font-size: 40px;
     color: white;
     
-}
-
-.sosial {
-    margin-left: 40px;
-    margin-top: 300px;
-    line-height: 20px;
-    font-size: 13px;
-    color: white;
-
-}
-
-.sosial h4{
-    margin-bottom: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.sosial p{
-    letter-spacing: 1px;
-    color: #FF5851;
-
-}
-.sosial p:hover{
-    color: #ffffff;
-    cursor: pointer;
-
-}
-
-
-.info {
-    display: flex;
-    justify-content: right;
-    margin-right: 50px;
 }
 
 /* ham menu */
@@ -376,6 +389,7 @@ cursor: pointer;
 .menu-toggle input:checked ~ span:nth-child(4){
     width: 20px;
     transition: 0.5s ease;
+    background-color:  #6e6e6e;
 }
 
 /* end ham animation */
@@ -386,16 +400,42 @@ cursor: pointer;
 
 .portfolio {
     margin-top: 100px;
-    margin-left: 55px;
-    margin-right: 0px;
-    background-color:  #51c8ff;
-    width: 1800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color:  #ffffff;
+    width: 1808px;
+    border-radius: 10px;
     height: 850px;
+}
+
+.jude{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.jude h3{
+    font-size: 40px;
+}
+
+.jude p{
+    font-size: 15px;
+    text-decoration: underline;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: black;
+}
+
+
+.portfolio .jude {
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'MuseoModerno', cursive;
 }
 
 .project {
     display: flex;
-    margin-top: 30px;
+    margin-top: 10px;
+    
     justify-content: space-between;
 }
 
@@ -403,26 +443,27 @@ cursor: pointer;
     padding-top: 50px;
     font-family: 'MuseoModerno', cursive;
 }
-.portfolio p {
-text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 .p1{
     background-color: #c2191900;
+    animation: opas 3s ease;
+    ;
 }
 
 .p2{
     background-color: #ffffff00;
+    animation: opas 3s ease;
 }
 
 .p3{
     background-color: #8b121200;
+    animation: opas 3s ease;
+    margin-right: 50px
 }
 
 
 .pr {
-    width: 450px;
+    width: 400px;
     margin-left: 55px;
     margin-right: 55px;
     height: 200px;
@@ -432,7 +473,7 @@ text-decoration: underline;
 
 .pr img {
     background-size:cover;
-    width: 450px;
+    width: 440px;
 }
 
 .pr img:hover {
@@ -442,35 +483,37 @@ text-decoration: underline;
 
 .h1 {
     margin-left: 55px;
-    width: 450px;
-    height: 150px;
+    margin-bottom: 40px;
+    width: 437px;
+    height: 130px;
     background-color: #ffffff;
     border-radius: 0px 0px 10px 10px ;
     display: flex;
+    border: 1px solid;
 }
 
 
 .h1 h4 {
 font-size: 15px;
 margin-left: 20px;
-padding-top: 110px;
+padding-top: 95px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .h1 button {
     margin-left: 20px;
-    margin-top: 105px;
+    margin-top: 90px;
     width: 80px;
     height: 30px;
+    font-family: 'Montserrat Alternates', sans-serif;
     border-radius: 10px;
-    background-color:#1C1B20 ;
-    border: none;
-    color: wheat;
+    border: 3px solid  #FF5851;
+    color: rgb(6, 2, 2);
 }
 
 .h1 button:hover{
-    background-color: #51abff;
-    color: #000000;
+    background-color: #1C1B20 ;
+    color: #ffffff;
 }
 
 .h1 button a{
@@ -478,6 +521,252 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-decoration: none;
 }
 
+
+.project2 {
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+}
+
+
+
+/* end portfolio */
+
+/* Desc */
+
+.desc{
+    margin-top: 100px;
+    margin-left: 55px;
+    margin-right: 0px;
+    width: 1800px;
+    height: 850px;
+    display: flex;
+}
+
+@keyframes d1 {
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color:  #FF5851;
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes d2 {
+    0%{
+        background-color: #FF5851;
+        color: black;
+    }
+    50%{
+        background-color:  #ffffff;
+        color: black;
+    }
+    100%{
+        background-color:  #FF5851;
+        color: black;
+    }
+}
+
+@keyframes d3 {
+    0%{
+        
+        color: rgb(255, 255, 255);
+    }
+    50%{
+        
+        color: black;
+    }
+    100%{
+       
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes d4 {
+    0%{
+        
+        background-color: rgb(255, 255, 255);
+    }
+    50%{
+        
+        background-color: rgb(0, 0, 0);
+    }
+    100%{
+       
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes d5 {
+    0%{
+        
+        color: rgb(0, 0, 0);
+    }
+    50%{
+        
+        color: rgb(255, 255, 255);
+    }
+    100%{
+       
+        color: rgb(0, 0, 0);
+    }
+}
+
+.desc1{
+    background-color: #ffffff; 
+    width: 900px;
+    height: 850px;
+    border-radius: 10px 0px 0px 10px;
+    animation: d1 60s infinite;
+    
+}
+.desc1 p{
+    text-align: justify;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 27px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+.desc1 h4{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'MuseoModerno', cursive; ;
+    color: rgb(190, 93, 93);
+}
+
+.desc1 button {
+ 
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 3px solid  #FF5851;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+.desc1 button:hover{
+    background-color: #1C1B20 ;
+    color: #ffffff;
+
+}
+
+
+.desc1 a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+.desc1 .kol {
+    margin-left: 50px;
+    margin-top: 0px;
+}
+
+.kol img{
+    margin-top: 120px;
+}
+.kol h5 {
+     font-size:20px;
+    text-align: justify;
+    line-height: 22px;
+    font-family: 'MuseoModerno', cursive; ;
+    margin-top: 80px;
+}
+
+.desc2{
+    background-color: #FF5851;
+    width: 900px;
+    height: 850px;
+   
+    animation: d2 60s infinite;
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+.desc2 h3 {
+    text-align: center;
+    margin: 40px;
+    animation: d3 60s infinite;
+    font-family: 'MuseoModerno', cursive; ;
+    color: white;
+}
+
+.desc2 ul {
+    margin-top: 90px;
+}
+
+.desc2 ul li {
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: 'Montserrat Alternates', sans-serif
+
+}
+
+.lis {
+    display: flex;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.desc2 p {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    text-align: justify;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: white;
+    animation: d3 60s infinite;
+}
+
+
+
+.mod{
+    width: 40px;
+    padding: 2px;
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 15px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    animation: d4 60s infinite;
+}
+
+.mod button{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50px;
+    animation: d5 60s infinite;
+    background-color: #ad2323;
+}
+
+
+.active {
+    margin-left: 25px;
+    overflow: hidden;
+    transition: 0.5s all ease;
+}
+
+
+.dark-mode {
+    background-color: #1C1B20;
+    transition: all 0.5s ease;
+    color: rgb(0, 0, 0);
+  }
+
+/* end Desc */
 
 /* Mobile */
 
@@ -517,8 +806,22 @@ body{
     }
 }
 
+
+.buka {
+    width: 200px;
+    height: 80px;
+    background-color: #3279e4;
+    display: none;
+}
+
+
+
+
 .logo{
     color: rgb(26, 25, 26);
+    font-family: 'MuseoModerno', cursive;
+    margin: 13px 0px 0px 0px ;
+    font-size: 20px;
 }
 
 .pg {
@@ -667,11 +970,6 @@ body{
 
 }
 
-.info {
-    display: flex;
-    justify-content: space-between;
-}
-
 
 
 
@@ -702,39 +1000,15 @@ background-color: #1C1B20;
   
   }
 
-.info p {
-    color: #fdfcfb;
-}
-
 /* end */
 
-
-
-.portfolio {
-    background-color: #ffffff;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    width: 350px;
-    height: 850px;
-    justify-content: space-between;
-}
-.portfolio h1 {
-    padding-top: 50px;
-    color: #040403;
-    font-family: 'MuseoModerno', cursive;
-}
-.portfolio p {
-text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 
 
 nav ul {
     position: absolute;
     right: 0;
     top: 0;
-    width: 40%;
+    width: 1080;
     height: 50vh;
     flex-direction: column;
     justify-content: space-evenly;
@@ -748,6 +1022,16 @@ nav ul {
     /* box-shadow: 1px 1px 1px 1px; */                                                                                                                                                                                         
 }
  
+
+nav {
+    position: relative;
+    display: flex;
+    border-radius: 0px 0px 0px 0px;
+   
+}
+
+
+
 nav ul.slide {
     opacity: 100%;
     transition: all 0.5s ease;
@@ -796,13 +1080,49 @@ nav ul li:hover:nth-child(5){
 /* Project */
 
 
+
+
+.portfolio {
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 350px;
+    height: 850px;
+    justify-content: space-between;
+}
+.portfolio h1 {
+    padding-top: 50px;
+    color: #040403;
+    font-family: 'MuseoModerno', cursive;
+}
+.portfolio p {
+text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.jude h3{
+    font-size: 20px;
+}
+
+
+
+.jude p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+}
+
 .project {
     display: block;
     margin-top: 20px;
     margin-left: 18px;
-    
-  
+}
 
+.project2 {
+    display: none;
+    margin-top: 20px;
+    margin-left: 18px;
 }
 
 .pr:hover {
@@ -863,8 +1183,14 @@ nav ul li:hover:nth-child(5){
     border-radius: 0px 0px 10px 10px ;
     box-shadow: 0px 0px 3px 0px ;
     display: flex;
+    border: none;
     justify-content: space-between;
 }
+
+.desc {
+    display: none;
+}
+
 
 }
 

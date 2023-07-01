@@ -10,6 +10,14 @@
     
 }
 
+
+.mode {
+    background-color: #305ccd;
+    transition: 2s ease;
+}
+
+
+
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -58,7 +66,7 @@ nav ul li a{
 .l2 {
     width: 900px;
     height:283px ;
-    background-color: #db7c38;
+    background-color: #807770;
     border-radius: 0px 10px 0px 0px;
     animation: animasi3 2s ease;
 }
