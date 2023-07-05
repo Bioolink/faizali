@@ -15,7 +15,9 @@ overflow-x: hidden;
 
 }
 
-
+.change-back {
+    background-color: #51ff91;
+}
 
 #about {
     transition: 12s ease;
@@ -46,6 +48,7 @@ nav ul {
     margin-left: 1100px;
     justify-content: space-around;
     opacity: 0%;
+    transition: all .3s ease;
 }
 
 nav ul li {
@@ -87,7 +90,7 @@ nav ul.op {
 }
 
 .pg .kanan {
-    background-color: #3279e4;
+    background-color: #63d0fb;
     width: 900px;
     height: 850px;
     animation: animasi 2s ease;
@@ -95,7 +98,7 @@ nav ul.op {
 
 .lo {
     width: 300px;
-    height:283px ;
+    height:287px ;
     background-color:  #FF5851;
     border-radius: 0px 10px 0px 0px;
     animation: animasi1 8s infinite;
@@ -103,14 +106,14 @@ nav ul.op {
 }
 .l1 {
     width: 600px;
-    height:283px ;
+    height:287px ;
     background-color: #1C1B20;;
     border-radius: 0px 10px 0px 0px;
     animation: animasi2 8s infinite;
 }
 .l2 {
     width: 900px;
-    height:283px ;
+    height:287px ;
     background-color: #6e6e6e;
     border-radius: 0px 10px 0px 0px;
     animation: animasi3 8s infinite;
@@ -361,6 +364,7 @@ cursor: pointer;
     height: 3px;
     background-color: #1C1B20;
     border-radius: 2px;
+    transition: all .3s ease;
 }
 .menu-toggle input:hover{
     cursor: pointer;
@@ -739,31 +743,30 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 50px;
     height: 15px;
     border-radius: 50px;
-    background-color: #ffffff;
-    animation: d4 60s infinite;
+    border: 2PX solid  #494949;;
+    /* animation: d4 60s infinite; */
 }
 
-.mod button{
+.buk {
     width: 15px;
     height: 15px;
-    border: none;
+    background-color: #494949;
     border-radius: 50px;
-    animation: d5 60s infinite;
-    background-color: #ad2323;
+    transition: all 0.1s  ease;
+    animation: d5 .3s infinite;
+    cursor: pointer;
 }
-
 
 .active {
     margin-left: 25px;
-    overflow: hidden;
-    transition: 0.5s all ease;
+  
 }
+
 
 
 .dark-mode {
     background-color: #1C1B20;
-    transition: all 0.5s ease;
-    color: rgb(0, 0, 0);
+    transition: all 0.5s ;
   }
 
 /* end Desc */
@@ -772,7 +775,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
 
-@media screen and (max-width: 400px) {
+@media (width: 400px){
 
   @keyframes animasi {
    0% {
@@ -1181,72 +1184,390 @@ text-decoration: underline;
 
 /* laptop */
 
-@media screen and (width:992px) {
-    
-
-
-
+@media (min-width: 1024px) {
+    body {
+        position: absolute;
+    }
+    nav {
+        display: flex;
+        background-color: #ffffff;
+        justify-content: space-between;
+        margin-left: 40px;
+        width: 1200px;
+        border-radius: 0px 0px 10px 10px;
+    }
+    nav ul {
+        display: flex;
+        margin-left: 500px;
+        justify-content: space-around;
+        opacity: 0%;
+        transition: all .3s ease;
+    }
     .pg {
         display: flex;
-        margin: 0px 0px 0px 25px;
-        
+        margin: 0px 0px 0px 40px;
     }
-    
     .pg .kanan {
-        background-color: #3279e4;
-        width: 900px;
-        height: 850px;
+        background-color: #63d0fb;
+        width: 600px;
+        height: 600px;
         animation: none;
     }
-    
+    .pg .kiri {
+        background-color: #fdfcfb;
+        width: 600px;
+        height: 600px;
+    }
+    .kiri h1 {
+        margin-left: 300PX;
+        margin-top: 10PX;
+        font-family: 'MuseoModerno', cursive;
+        font-size: 20px;
+        color: #1C1B20;
+    }
+    .kiri p {
+        margin-left: 200px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 30px;
+        color: #1C1B20;
+    }
+    .kiri img {
+        margin: 50px 0px 0px 200px;
+    }
+    @keyframes a1 {
+        0% {
+            width: 0px;
+        }
+        50% {
+            width: 200px;
+        }
+        100% {
+            width: 0px;
+        }
+    }
+    @keyframes a2 {
+        0% {
+            width: 0px;
+        }
+        50% {
+            width: 400px;
+        }
+        100% {
+            width: 0px;
+        }
+    }
+    @keyframes a3 {
+        0% {
+            width: 0px;
+        }
+        50% {
+            width: 650px;
+        }
+        100% {
+            width: 0px;
+        }
+    }
     .lo {
-        width: 300px;
-        height:283px ;
-        background-color:  #FF5851;
+        width: 200px;
+        height: 200px;
+        background-color: #ff5151;
         border-radius: 0px 10px 0px 0px;
-        animation: none;
-        /* animation: ganti 5s infinite; */
+        animation: a1 6s infinite;
     }
     .l1 {
-        width: 600px;
-        height:283px ;
-        background-color: #1C1B20;;
+        width: 425px;
+        height: 200px;
+        background-color: #1C1B20;
+        ;
         border-radius: 0px 10px 0px 0px;
-        animation: none;
+        animation: a2 6s infinite;
     }
     .l2 {
-        width: 900px;
-        height:283px ;
+        width: 650px;
+        height: 200px;
         background-color: #6e6e6e;
         border-radius: 0px 10px 0px 0px;
-        animation: none;
+        animation: a3 6s infinite;
     }
-    
-
-
-/* desc */
-
-
-.desc{
-    margin-top: 100px;
-    margin-left: 25px;
-    margin-right: 0px;
-    width: 1800px;
-    height: 850px;
-    display: flex;
-}
-
-
-
-
-.footer{
-    width: 1853px;
-    height: 400px;
-    margin-top: 300px;
-    background-color: #1C1B20;
-}
-
-
-
-
+    .kiri button {
+        width: 100px;
+        height: 25px;
+        margin: 40px 0px 0px 290px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: 3px solid salmon;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .desc {
+        margin-top: 100px;
+        margin-left: 40px;
+        margin-right: 0px;
+        width: 1200px;
+        height: 700px;
+        display: flex;
+    }
+    @keyframes d1 {
+        0% {
+            background-color: white;
+        }
+        50% {
+            background-color: #FF5851;
+        }
+        100% {
+            background-color: white;
+        }
+    }
+    @keyframes d2 {
+        0% {
+            background-color: #FF5851;
+            color: black;
+        }
+        50% {
+            background-color: #ffffff;
+            color: black;
+        }
+        100% {
+            background-color: #FF5851;
+            color: black;
+        }
+    }
+    @keyframes d3 {
+        0% {
+            color: rgb(255, 255, 255);
+        }
+        50% {
+            color: black;
+        }
+        100% {
+            color: rgb(255, 255, 255);
+        }
+    }
+    @keyframes d4 {
+        0% {
+            background-color: rgb(255, 255, 255);
+        }
+        50% {
+            background-color: rgb(0, 0, 0);
+        }
+        100% {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+    @keyframes d5 {
+        0% {
+            color: rgb(0, 0, 0);
+        }
+        50% {
+            color: rgb(255, 255, 255);
+        }
+        100% {
+            color: rgb(0, 0, 0);
+        }
+    }
+    .desc1 {
+        background-color: #ffffff;
+        width: 600px;
+        height: 600px;
+        border-radius: 10px 0px 0px 10px;
+        animation: d1 60s infinite;
+    }
+    .desc1 p {
+        text-align: justify;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .desc1 h4 {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: 'MuseoModerno', cursive;
+        ;
+        color: rgb(190, 93, 93);
+    }
+    .desc1 button {
+        margin-left: 50px;
+        margin-top: 20px;
+        width: 100px;
+        height: 25px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 3px solid #FF5851;
+        font-family: 'Montserrat Alternates', sans-serif;
+    }
+    .desc1 button:hover {
+        background-color: #1C1B20;
+        color: #ffffff;
+    }
+    .desc1 a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .desc1 .kol {
+        margin-left: 50px;
+        margin-top: 0px;
+    }
+    .kol img {
+        margin-top: 50px;
+    }
+    .kol h5 {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 22px;
+        font-family: 'MuseoModerno', cursive;
+        ;
+        margin-top: 20px;
+    }
+    .desc2 {
+        background-color: #FF5851;
+        width: 600px;
+        height: 600px;
+        animation: d2 60s infinite;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .desc2 h3 {
+        text-align: center;
+        margin: 40px;
+        animation: d3 60s infinite;
+        font-family: 'MuseoModerno', cursive;
+        ;
+        color: white;
+    }
+    .desc2 ul {
+        margin-top: 50px;
+    }
+    .desc2 ul li {
+        list-style: none;
+        margin-left: 50px;
+        margin-top: 0px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 12px;
+    }
+    .lis {
+        display: flex;
+        color: white;
+        margin-bottom: 50px;
+    }
+    .desc2 p {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        text-align: justify;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: white;
+        animation: d3 60s infinite;
+        font-size: 12px;
+    }
+    .desc2 img {
+        width: 100px;
+    }
+    .portfolio {
+        margin-top: 10px;
+        margin-left: 40px;
+        margin-right: 50px;
+        margin-bottom: 50px;
+        background-color: #ffffff;
+        width: 1200px;
+        border-radius: 10px;
+        height: 780px;
+    }
+    .jude {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .jude h3 {
+        font-size: 40px;
+    }
+    .jude p {
+        font-size: 15px;
+        text-decoration: underline;
+        font-family: 'Montserrat Alternates', sans-serif;
+        color: black;
+    }
+    .portfolio .jude {
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        font-family: 'MuseoModerno', cursive;
+    }
+    .project {
+        display: flex;
+        margin-top: 10px;
+        margin-right: 50px;
+        justify-content: space-between;
+    }
+    .portfolio h1 {
+        padding-top: 50px;
+        font-family: 'MuseoModerno', cursive;
+    }
+    .p1 {
+        background-color: #c2191900;
+        animation: opas 3s ease;
+    }
+    .p2 {
+        background-color: #ffffff00;
+        animation: opas 3s ease;
+    }
+    .p3 {
+        background-color: #8b121200;
+        animation: opas 3s ease;
+        margin-right: 0px
+    }
+    .pr {
+        width: 300px;
+        background-color: #ffffff00;
+        border-radius: 10px 0px 0px 0px;
+    }
+    .pr img {
+        background-size: cover;
+        margin-top: 10px;
+        padding-top: 5px;
+        width: 300px;
+    }
+    .pr img:hover {
+        background-size: contain;
+    }
+    .h1 {
+        margin-left: 55px;
+        margin-bottom: 40px;
+        width: 299px;
+        height: 50px;
+        background-color: #ffffff;
+        border-radius: 0px 0px 10px 10px;
+        display: flex;
+        border: 1px solid;
+    }
+    .h1 h4 {
+        font-size: 15px;
+        margin-left: 20px;
+        padding-top: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .h1 button {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 80px;
+        height: 30px;
+        font-family: 'Montserrat Alternates', sans-serif;
+        border-radius: 10px;
+        border: 3px solid #FF5851;
+        color: rgb(6, 2, 2);
+    }
+    .h1 button:hover {
+        background-color: #1C1B20;
+        color: #ffffff;
+    }
+    .h1 button a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .project2 {
+        display: flex;
+        margin-top: 0px;
+        margin-right: 50px;
+        justify-content: space-between;
+    }
 }
