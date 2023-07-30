@@ -4,12 +4,26 @@
     line-height: 0;
 }
 
+.logo{
+    margin-top: 10px;
+}
+
+
 body{
     /* background-color: rgb(46, 46, 46); */
     text-align: center;
-    transition: all .3s ease;
     
   
+}
+
+h1{
+    margin-top: 30px;
+}
+
+button{
+    margin: 50px auto;
+    width: 80px;
+    height: 20px;
 }
 
 nav {
@@ -34,6 +48,7 @@ nav ul{
     margin-left: 500px;
   color: white;
   opacity: 0;
+  margin-top: 10px;
 }
 
 nav ul li {
@@ -101,57 +116,24 @@ nav ul li a{
 
 
 
-
-
-.container{
-    width: 600px;
-    margin: 50px auto;
-    border: 5px solid white;
-    overflow: auto;
-    border-radius: 15px;
-    background-color: #fefefe;
+.biru-muda{
+    background-color: lightblue;
 }
 
-.container::-webkit-scrollbar{
-    display: none;
+.kotak {
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
 }
 
-.jumbo{
-    border-radius: 15px;
+.merah{
+    background-color: hsl(0, 100%, 67%);
 }
 
-.thumb{
-    width: 200px;
-    float: left;
-    border: 2px solid white;
-    box-sizing: border-box;
-    border-radius: 15px;
+.hijau{
+    background-color: rgb(58, 255, 58);
 }
 
-.thumb:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-
-@keyframes fadein{
-    to{
-        opacity: 1;
-    }
-}
-
-
-.fade{
-    opacity: 0;
-    animation: fadein .5s forwards;
-}
-
-.active{
-    opacity: 0.5;
-}
-
-
-button {
-    width: 70px;
-    height: 20px;
+.biru{
+    background-color: rgb(72, 72, 255);
 }

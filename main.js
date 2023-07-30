@@ -4,7 +4,7 @@
 const menuToggle = document.querySelector('.menu-toggle input');
 const nav = document.querySelector('nav ul');
 menuToggle.addEventListener('click', function () {
-nav.classList.toggle('slide');
+nav.classList.toggle('kura');
 
 });
 
@@ -20,9 +20,16 @@ const kaka = document.querySelector('.buk');
 
 kaka.addEventListener ('click', function() {
    kaka.classList.toggle('active');
-  
-
 });
+
+
+
+const span = document.querySelector('.slide .card span');
+span.addEventListener('click', function() {
+   span.classList.toggle('up');
+})
+
+
 
 
 function myFunction() {
