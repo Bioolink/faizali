@@ -100,9 +100,11 @@ body{
     }
 
     .simply-countdown > .simply-section{
-        padding: 45px !important;
+        padding: 35px !important;
         margin: 3px !important;
         border-radius:50px !important;
+        width:10px !important;
+        height:10px !important;
         
     }
 }
