@@ -84,7 +84,48 @@ body{
         padding: 70px;
          background:beige;
     }
+
 }
+
+.bulat{
+    width: 50px;
+    height: 25px;
+    background-color: #f14e95;
+    margin-top: 100px;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.gak{
+    width: 16px;
+    height: 16px;
+    background-color: #0a0a0a;
+    border-radius: 50px;
+}
+
+.move {
+    margin-left: 23px;
+}
+
+.dark{
+    background-color: #262626;
+    color: white;
+}
+
+
+.mynavbar{
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
