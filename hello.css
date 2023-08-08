@@ -7,7 +7,7 @@
 body{
     font-size: 1.2rem;
     font-family: 'Work Sans', sans-serif;
-    min-height: 2000px;
+    min-height: 4000px;
 }
 
 .hero::before{
@@ -27,6 +27,7 @@ body{
     min-height: 100vh;
     /* background-color: rgb(68, 67, 67); */
     position: relative;
+    
 }
 
 .hero h1{
@@ -70,6 +71,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -56px;
 }
 
 
@@ -114,7 +116,7 @@ body{
 
 
 .mynavbar{
-    
+  backdrop-filter: blur(10px);
 }
 
 
