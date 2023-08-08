@@ -178,7 +178,7 @@ body{
     .page{
         width: 24.99rem;
         height: auto;
-        background-color: rgb(39, 39, 39);
+        background-color: rgb(255, 255, 255);
         margin: 10px auto;
     }
 
@@ -193,7 +193,7 @@ body{
 
   
   .text h1{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left:10px ;
     font-size: 25px;
     font-family: 'Montserrat Alternates', sans-serif;
