@@ -119,7 +119,7 @@ body{
   }
 
   .text2 p{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     margin-left:10px ;
     font-size: 15px;
     text-align: justify;
@@ -178,16 +178,16 @@ body{
     .page{
         width: 24.99rem;
         height: auto;
-        background-color: rgb(255, 255, 255);
-        margin: 10px auto;
+        background-color: rgb(255, 208, 99);
+        margin: 0px ;
     }
 
     
   .text{
     margin-top:60px ;
     padding-top:10px ;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
     
 
@@ -207,6 +207,17 @@ body{
     padding-top:10px ;
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+
+  
+  .text p{
+    color: rgb(47, 47, 47);
+    margin-left:10px ;
+    font-size: 15px;
+    text-align: justify;
+    font-family: 'Montserrat Alternates', sans-serif;
+
   }
 
 
