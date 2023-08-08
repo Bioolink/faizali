@@ -176,9 +176,9 @@ body{
 
   @media (max-width:400px) {
     .page{
-        width: 21.99rem;
+        width: 22rem;
         height: auto;
-        background-color: rgb(156, 255, 99);
+        background-color: rgb(255, 255, 255);
         margin: 0px ;
     }
 
