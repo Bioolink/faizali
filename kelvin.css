@@ -130,7 +130,7 @@ body{
 
 
 
-
+/* 
   
   @media (max-width:400px) {
 
@@ -163,9 +163,52 @@ body{
   }
 
 
+
   }
 
 
+ */
 
 
+
+
+
+
+  @media (max-width:400px) {
+    .page{
+        width: 24.99rem;
+        height: auto;
+        background-color: rgb(39, 39, 39);
+        margin: 10px auto;
+    }
+
+    
+  .text{
+    margin-top:60px ;
+    padding-top:10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+    
+
+  
+  .text h1{
+    color: aliceblue;
+    margin-left:10px ;
+    font-size: 25px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+  }
+
+
+  
+  .text2{
+    margin-top:60px ;
+    padding-top:10px ;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+  }
 
