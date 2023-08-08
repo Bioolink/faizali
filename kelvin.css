@@ -131,6 +131,43 @@ body{
 
 
 
+  
+  @media (max-width:400px) {
+
+    .body{
+      overflow: hidden;
+    }
+
+    .page{
+      width: 23.2rem;
+      height: auto;
+      margin: 0px auto;
+      background-color: rgb(255, 255, 255);
+  }
+
+  
+
+  .text2{
+    margin-top:100px ;
+    padding-top:10px ;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .text2 h1{
+    color: rgb(0, 0, 0);
+    margin-left:10px ;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+  }
+
+
+
+
+  }
+
+
 
 
 
@@ -166,38 +203,3 @@ body{
 
   }
 
-
-  @media (max-width:400px) {
-
-    .body{
-      overflow: hidden;
-    }
-
-    .page{
-      width: 23.2rem;
-      height: auto;
-      margin: 0px auto;
-      background-color: rgb(255, 255, 255);
-  }
-
-  
-
-  .text2{
-    margin-top:100px ;
-    padding-top:10px ;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-
-  .text2 h1{
-    color: rgb(0, 0, 0);
-    margin-left:10px ;
-    font-size: 15px;
-    font-family: 'Montserrat Alternates', sans-serif;
-
-  }
-
-
-
-
-  }
