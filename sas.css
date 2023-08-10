@@ -192,8 +192,7 @@ nav ul li a:hover{
 
 @media (max-width:400px) {
     .page{
-        /* background: #F0AE19; */
-        background: url(img2/bg2.png);
+        background: #F0AE19;
         background-size: cover;
         background-position: center;
     }
@@ -224,15 +223,10 @@ nav ul li a:hover{
     margin-top: 50px;
   }
 
-  .desc h1{
-    text-align: justify;
-    color: #ffffff;
-    font-family: 'Montserrat Alternates', sans-serif;
-  }
-
   .desc h3{
     text-align: center;
     color: #ffffff;
+    font-size: 13px;
     font-family: 'Montserrat Alternates', sans-serif;
   }
 
@@ -245,7 +239,7 @@ nav ul li a:hover{
   .desc button{
    width:190px;
    height: 40px;
-   margin-left: 20px;
+   margin-left: 15px;
    margin-top: 50px;
    border: none;
    border-radius: 5px;
