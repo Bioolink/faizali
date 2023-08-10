@@ -1,0 +1,309 @@
+body{
+    height: 2000px;
+}
+
+
+nav {
+    display: flex;
+    background-color:transparent;
+    justify-content: space-around;
+   
+}
+
+.logo {
+    font-family: 'MuseoModerno', cursive;
+    margin: 13px 0px 0px 20px ;
+    font-size: 20px;
+    z-index: 10;
+   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    transition: all .3s ease;
+    z-index: 10;
+    margin-left: 400px;
+}
+
+nav ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 20px;
+  
+}
+
+nav ul li a{
+    display: flex;
+    color: inherit;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 2000;
+}
+
+nav ul li a:hover{
+  color: #ffffff;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  transition: all .3s;
+}
+
+
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.menu input{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 11;
+}
+
+.menu span {
+    width: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: aliceblue;
+    display: block;
+    transition: all .3s ease;
+    z-index: 10;
+    
+}
+
+
+.menu input:checked ~ span:nth-child(2){
+    background-color: rgb(54, 54, 54);
+    width: 20px;
+}
+
+.menu input:checked ~ span:nth-child(3){
+    background-color: rgb(54, 54, 54);
+    width: 24px;
+}
+
+.menu input:checked ~ span:nth-child(4){
+    background-color: rgb(54, 54, 54);
+    width: 15px;
+}
+
+
+.opas{
+    opacity: 100;
+}
+
+.opas1{
+    opacity: 100;
+}
+
+
+
+
+
+.page{
+    width: 100%;
+    height: 100vh;
+    background: url(img2/bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top:100px ;
+    position: absolute;
+    top: 0;
+  }
+
+
+  
+  .front {
+   width: 90%;
+   height: 90%;
+   background-color: rgba(250, 235, 215, 0);
+   margin:auto;
+   padding-top: 50px;
+  }
+
+
+  .sub{
+    margin-left: 90px;
+    font-family: 'MuseoModerno', cursive;
+   
+  }
+
+  .sub h1{
+    font-size: 90px;
+    animation: change 30s infinite;
+  }
+
+  .desc{
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .desc h1{
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .desc h3{
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .desc button{
+   width:190px;
+   height: 40px;
+   margin-left: 130px;
+   margin-top: 50px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 0px 3px black;
+  }
+
+  .desc button:hover{
+  background-color: rgb(58, 58, 58);
+  color: #ffffff;
+  }
+
+  .desc button:active{
+  transform: scale(.9);
+  }
+
+  @keyframes change{
+    0%{
+        color: #000000;
+    }
+    50%{
+        color: #ffffff;
+    }
+    0%{
+        color: #000000;
+    }
+  }
+
+@media (max-width:400px) {
+    .page{
+        /* background: #F0AE19; */
+        background: url(img2/bg2.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    
+  .sub{
+    margin-left: 0;
+    font-family: 'MuseoModerno', cursive;
+    text-align: center;
+   
+  }
+
+  
+  .front {
+    padding-top: 50px;
+   }
+ 
+
+  .sub h1{
+    font-size: 50px;
+    animation: change 30s infinite;
+  }
+
+  
+  .desc{
+    width: 350px;
+    height: 300px;
+    margin-top: 50px;
+  }
+
+  .desc h1{
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .desc h3{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+  }
+
+  .desc p{
+   font-size: 15px;
+   text-align: justify;
+   display: none;
+  }
+
+  .desc button{
+   width:190px;
+   height: 40px;
+   margin-left: 20px;
+   margin-top: 50px;
+   border: none;
+   border-radius: 5px;
+   box-shadow: 0px 0px 3px black;
+  }
+
+
+
+  
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+    opacity: 100;
+    transition: all .3s ease;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    right: 0;
+    margin-top: 40px;
+    height: 300px;
+    width: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
+    opacity: 0;
+    z-index: 10;
+}
+
+
+.menu {
+   margin-left:150px ;
+}
+
+
+.menu span {
+    width: 24px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: rgb(54, 54, 54);
+    display: block;
+    transition: all .3s ease;
+}
+
+    
+nav ul li a:hover{
+    color: #4a4a4a;
+    border-bottom: 3px solid rgb(84, 84, 84);
+    transition: all .3s;
+  }
+  
+    
+nav ul li a{
+    color: #000000;
+    transition: all .3s;
+  }
+  
+  
+
+
+}
