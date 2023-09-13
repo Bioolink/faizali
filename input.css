@@ -1,0 +1,150 @@
+.container{
+    width: 1200px;
+    height: 800px;
+    background-color: rgb(255, 153, 0);
+    margin: 50px auto;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+
+
+body{
+    background-color: #ffb120;
+}
+
+.dek{
+    width:500px;
+    text-align: justify;
+    
+}
+
+.dek p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.dek a{
+    color: inherit;
+    text-decoration: none;
+ }
+ 
+
+.form{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.b{
+    width: 330px;
+    height: 599px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    /* background: url(img2/bg2.png); */
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+.b img{
+    width: 330px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+.a input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 1px;
+   text-align: center;
+}
+
+.a button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(47, 47, 47);
+    color: wheat;
+}
+
+.a button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(61, 61, 61);
+    cursor: pointer;
+}
+
+.a button:active{
+    transform: scale(.9);
+}
+
+#foto{
+    display: none;
+}
+
+#pp {
+    display: block;
+    width: 480px;
+    background-color: #e3362c;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+#pp:hover{
+    background-color: rgb(40, 40, 40);
+    color: #d1d1d1;
+    cursor: pointer;
+}
+
+#pp:active{
+  transform: scale(.9);
+}
+
+.btn{
+    width: 50px;
+    height: 20px;
+    background-color: #e3362c;
+    margin-left:430px ;
+    border-radius: 50px;
+    padding: 3px;
+
+}
+
+.bulat{
+    width: 20px;
+    height: 20px;
+    background-color: #909090;
+    border-radius: 50px;
+    transition: all .3s;
+   
+}
+
+.move{
+    margin-left:27px ;
+}
+
+.bg{
+    background-color: #202020;
+}
+
+.bg2{
+    background-color: #414141;
+    color: #d1d1d1;
+}
+
+.bg3{
+   color: #d1d1d1;
+}
+
+.bg4{
+  background: url(img/tow.png);
+}

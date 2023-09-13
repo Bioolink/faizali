@@ -42,3 +42,6 @@ element.classList.toggle("dark-mode");
     var main = document.body;
     main.classList.toggle("change-back")
  }
+
+
+ const tanggal = new Date('january 15, 2023 00:00:00')

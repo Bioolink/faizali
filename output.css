@@ -1,0 +1,104 @@
+.container{
+    width: 1200px;
+    height: 700px;
+    background-color: rgb(255, 153, 0);
+    margin: 100px auto;
+    border-radius: 15px;
+    
+}
+
+.container h2{
+    padding-top: 4.4px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #ffb120;
+}
+
+.dek{
+    width:500px;
+    text-align: justify;
+    margin-left: 40px;
+}
+
+.dek p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.a h4{
+    margin-left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b{
+    width: 330px;
+    height: 599px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    /* background: url(img2/bg2.png); */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 456px;
+    top: 168px;
+}
+
+
+.b img{
+    width: 330px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+
+.item  {
+    display: flex;
+    justify-content: space-between;
+   width: 550px;
+   text-align: justify;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.a{
+    margin-left: 56px;
+    margin-top: 11px;
+
+}
+
+.a a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.a ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.a ul li {
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+.a input{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 5px;
+   text-align: center;
+}
+
+.a button{
+    background-color: red;
+}
